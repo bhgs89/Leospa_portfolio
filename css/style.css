@@ -10,8 +10,10 @@ p {
 a {
   display: block;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 27px;
+  transition: color 300ms ease-in-out;
 }
 ul {
   padding: 0;
@@ -80,6 +82,13 @@ a.reserve {
   font-weight: 500;
   min-width: 170px;
   line-height: 2;
+}
+a.video {
+  font-size: 15px;
+}
+a.video:hover {
+  text-decoration: none;
+  color: #ff817e;
 }
 a.video i {
   display: inline-block;
