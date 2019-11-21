@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--Required meta tags-->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <title>Leospa Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
+    <!--Css files-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <!--Js files-->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>Leospa Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
   </head>
   <body>
     <!--Header section start-->
@@ -86,10 +100,11 @@
 
     <!--About section start-->
     <section id="about-section">
-      <!--About image-->
+      <!--About image start-->
       <img class="about-image1" src="images/china-rose.png" alt="flower1" />
       <img class="about-image2" src="images/jasmine.png" alt="flower2" />
-      <!--About content-->
+      <!--About image end-->
+      <!--About content start-->
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-sm-10 about-content">
@@ -107,28 +122,60 @@
           </div>
         </div>
       </div>
+      <!--About content end-->
     </section>
+    <!--About section end-->
 
+    <!--Service section start-->
     <section id="service-section">
-      <div class="container-fluid p-0">
-        <div class="row justify-content-between no-gutters">
-          <div class="col">
-            <img src="images/service/1.jpg" alt />
-          </div>
-          <div class="col">
-            <img src="images/service/2.jpg" alt />
-          </div>
-          <div class="col">
-            <img src="images/service/3.jpg" alt />
-          </div>
-          <div class="col last-col">
-            <img src="images/service/4.jpg" alt />
+      <!--Responsive slide content start-->
+      <div class="owl-carousel owl-drag owl-loaded">
+        <div class="owl-stage-outer">
+          <div class="owl-stage">
+            <div class="owl-item">
+              <div class="slide-img">
+                <img src="images/service/1.jpg" alt />
+              </div>
+              <div class="slide-hover">
+                <img src="images/icons/1.png" alt />
+                <p>Body Treatment</p>
+              </div>
+            </div>
+            <div class="owl-item">
+              <div class="slide-img">
+                <img src="images/service/2.jpg" alt />
+              </div>
+              <div class="slide-hover">
+                <img src="images/icons/1.png" alt />
+                <p>Body Treatment</p>
+              </div>
+            </div>
+            <div class="owl-item">
+              <div class="slide-img">
+                <img src="images/service/3.jpg" alt />
+              </div>
+              <div class="slide-hover">
+                <img src="images/icons/1.png" alt />
+                <p>Body Treatment</p>
+              </div>
+            </div>
+            <div class="owl-item">
+              <div class="slide-img">
+                <img src="images/service/4.jpg" alt />
+              </div>
+              <div class="slide-hover">
+                <img src="images/icons/1.png" alt />
+                <p>Body Treatment</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!--Responsive slide content end-->
     </section>
+    <!--Service section end-->
 
-    <section id="procedures-section">
+    <!-- <section id="procedures-section">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
@@ -143,7 +190,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!--Footer section start-->
     <footer class="footer">
