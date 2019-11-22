@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.owl-carousel').owlCarousel({
+  $('.service-owl').owlCarousel({
     margin: 5,
     responsive: {
       0: {
@@ -12,5 +12,12 @@ $(document).ready(function() {
         items: 4
       }
     }
+  });
+
+  $('.blog-owl').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    dots: true
   });
 });
