@@ -1,5 +1,6 @@
 /* Basic tag styling */
-h2 {
+h2,
+h3 {
   font-family: 'Rufina', serif;
 }
 p {
@@ -18,7 +19,9 @@ a {
 ul {
   padding: 0;
 }
-
+section {
+  padding: 5% 0;
+}
 /* Menu bar styling */
 .header-main {
   position: absolute;
