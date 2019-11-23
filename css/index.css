@@ -297,6 +297,7 @@
 .two-input {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 .two-input input,
 .two-input select,
@@ -309,10 +310,14 @@
   font-weight: 400;
   padding: 10px 0;
   margin-bottom: 30px;
+  line-height: 27px;
 }
 .two-input input,
 .two-input select {
   width: 49%;
+}
+.single-input {
+  margin-bottom: 0;
 }
 .single-input textarea {
   width: 100%;
@@ -386,4 +391,11 @@
 }
 .contact-form textarea {
   resize: none;
+}
+
+/* Map section styling */
+#map {
+  position: relative;
+  width: 100%;
+  height: 500px;
 }
