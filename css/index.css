@@ -348,3 +348,13 @@
 .single-input textarea {
   width: 100%;
 }
+
+/* Latest section styling */
+#latest-section {
+  padding: 5% 0 2%;
+}
+
+/* Contact section styling */
+#contact-section .header {
+  text-align: center;
+}
