@@ -55,6 +55,9 @@ section {
 .round {
   border-radius: 50px;
 }
+header {
+  position: relative;
+}
 /* Menu bar styling */
 .header-main {
   position: absolute;
