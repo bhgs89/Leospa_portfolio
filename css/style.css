@@ -1,6 +1,7 @@
 /* Basic tag styling */
 h2,
-h3 {
+h3,
+h5 {
   font-family: 'Rufina', serif;
 }
 p {
@@ -9,7 +10,6 @@ p {
   line-height: 27px;
 }
 a {
-  display: block;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -21,6 +21,21 @@ ul {
 }
 section {
   padding: 5% 0;
+}
+
+/* Button styling */
+.btn {
+  background-color: #ff817e;
+  color: white;
+  padding: 20px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  min-width: 170px;
+  border-radius: 0;
+  line-height: 0.8;
+}
+.round {
+  border-radius: 50px;
 }
 /* Menu bar styling */
 .header-main {

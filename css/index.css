@@ -1,6 +1,6 @@
 /* Intro section styling */
 #intro-section {
-  background: url('../images/leaf.png') no-repeat left center;
+  background: url('../images/leaf.png') no-repeat left center/12.5%;
   padding: 12% 0;
 }
 .intro-img {
@@ -30,30 +30,25 @@
   font-weight: lighter;
   margin-bottom: 50px;
 }
-a.reserve {
-  display: inline-block;
-  background-color: #ff817e;
-  color: white;
-  border-radius: 0;
-  font-weight: 500;
-  min-width: 170px;
-  line-height: 2;
-}
-a.video {
+.video {
   font-size: 15px;
+  font-weight: 400;
+  margin-left: 15px;
+  color: #555;
 }
-a.video:hover {
+.video:hover {
   text-decoration: none;
   color: #ff817e;
 }
-a.video i {
+.video i {
   display: inline-block;
   border-radius: 50%;
   background-color: #fcf5ee;
   color: #ff817e;
-  line-height: 40px;
-  height: 40px;
-  width: 40px;
+  line-height: 44px;
+  height: 44px;
+  width: 44px;
+  text-align: center;
   margin-right: 10px;
 }
 
@@ -98,15 +93,6 @@ a.video i {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-}
-a.read {
-  display: inline-block;
-  border-radius: 50px;
-  background-color: #ff817e;
-  color: white;
-  font-weight: 500;
-  min-width: 170px;
-  line-height: 2;
 }
 
 /* Service section styling */
@@ -187,6 +173,8 @@ a.read {
 }
 .row .post .second {
   background-color: #30383b;
+  padding: 15px;
+  margin-bottom: 30px;
 }
 .post:hover {
   box-shadow: 0 5px 20px #f0f0f0;
@@ -235,4 +223,128 @@ a.read {
   width: 8px;
   height: 8px;
   margin: 0 5px;
+}
+
+/* Blog section styling */
+#team-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.team-section-title {
+  font-size: 42px;
+  color: #1e2528;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+.team-title-text {
+  font-size: 15px;
+  color: #888888;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.member-container {
+  transition: all 300ms ease-in-out;
+}
+.member-img img {
+  width: 100%;
+}
+.member {
+  background-color: white;
+  position: relative;
+  width: 83%;
+  margin: -50px auto 0;
+  padding: 30px 20px;
+  box-shadow: 0 5px 20px #f0f0f0;
+  z-index: 1;
+  transition: all 300ms ease-in-out;
+}
+.member h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.member p {
+  color: #6c6c6f;
+  font-weight: 300;
+}
+.member-social {
+  visibility: hidden;
+  margin-top: -30px;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+.member-social a {
+  display: inline-block;
+  border: 1px solid #30383b;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #30383b;
+  transition: all 300ms ease-in-out;
+}
+.member-social a:hover {
+  border-color: #ff817e;
+  background-color: #ff817e;
+  color: white;
+  text-decoration: none;
+}
+.member-container:hover .member {
+  margin-top: -80px;
+}
+.member-container:hover .member-social {
+  margin-top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Appointment section styling */
+#appointment-section {
+  padding: 3% 0;
+}
+.appointment-content {
+  display: flex;
+}
+.appointment-img {
+  flex-basis: 40%;
+  margin: 0;
+  padding: 0;
+}
+.appointment-img img {
+  width: 100%;
+  height: auto;
+}
+.appointment-form {
+  flex-basis: 60%;
+  background-color: #fff9f8;
+  padding-left: 100px;
+}
+.appointment-form form {
+  max-width: 650px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.two-input {
+  display: flex;
+  justify-content: space-between;
+}
+.two-input input,
+.two-input select,
+.single-input textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.two-input input,
+.two-input select {
+  width: 49%;
+}
+.single-input textarea {
+  width: 100%;
 }
