@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  /* Owl Carousel */
   $('.service-owl').owlCarousel({
     margin: 5,
     responsive: {
@@ -13,11 +14,15 @@ $(document).ready(function() {
       }
     }
   });
-
   $('.blog-owl').owlCarousel({
     items: 1,
     loop: true,
     autoplay: true,
     dots: true
+  });
+
+  /* FancyBox */
+  $(document).ready(function() {
+    $('[data-fancybox="video-fancy"]').fancybox({});
   });
 });
