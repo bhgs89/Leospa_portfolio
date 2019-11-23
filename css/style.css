@@ -1,20 +1,38 @@
 /* Basic tag styling */
+h1,
 h2,
 h3,
-h5 {
+h4,
+h5,
+h6 {
   font-family: 'Rufina', serif;
+  font-weight: 700;
+  color: #1e2528;
+}
+h2 {
+  font-size: 60px;
+  line-height: 75px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 22px;
 }
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  font-weight: 300;
   line-height: 27px;
 }
 a {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   line-height: 27px;
   transition: color 300ms ease-in-out;
+}
+img {
+  display: block;
 }
 ul {
   padding: 0;
@@ -53,6 +71,7 @@ section {
 }
 .menu-ul li a {
   padding: 0 20px;
+  font-weight: 500;
   color: #263a41;
 }
 .menu-ul li a:hover {
@@ -63,11 +82,14 @@ section {
 /* Footer styling */
 footer {
   text-align: center;
-  padding: 3% 0;
+  padding: 5% 0;
   background-color: #fff9f8;
 }
 .footer-logo {
   margin-bottom: 30px;
+}
+.footer-logo img {
+  margin: 0 auto;
 }
 .footer-nav {
   margin: 30px 0;
@@ -87,7 +109,6 @@ footer {
 }
 .copyright {
   font-size: 13px;
-  font-weight: 200;
   color: #888;
 }
 .copyright a {
