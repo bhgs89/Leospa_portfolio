@@ -4,4 +4,12 @@
 
 #### https://bhgs89.github.io/Leospa_portfolio/
 
-###### HTML, CSS, jQuery
+##### Used languages or tools
+
+- ###### HTML
+- ###### CSS
+- ###### Bootstraps
+- ###### jQuery
+- ###### Owl Carousel JS
+- ###### Datamaps JS
+- ###### Fancybox jQuery
