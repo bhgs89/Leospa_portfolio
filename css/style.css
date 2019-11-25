@@ -39,6 +39,7 @@ ul {
 }
 section {
   padding: 5% 0;
+  position: relative;
 }
 
 /* Button styling */
