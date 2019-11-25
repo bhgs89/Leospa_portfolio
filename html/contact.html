@@ -29,11 +29,8 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
   </head>
   <body>
-    <!--Scripts-->
-
-    <!--End Scripts-->
     <!--Header section start-->
-    <header>
+    <header class="header-main">
       <div class="container">
         <div class="row align-items-end justify-content-start">
           <!--Logo start-->
@@ -42,8 +39,11 @@
           </div>
           <!--Logo end-->
           <!--Menu start-->
-          <div class="col-sm-9">
-            <nav>
+          <div class="col-md-9">
+            <nav class="header-menu">
+              <a href="#" class="mobile-menu">
+                <span class="ti-menu"></span>
+              </a>
               <ul class="menu-ul">
                 <li><a href="../index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
@@ -60,7 +60,7 @@
     <!--Header section end-->
 
     <!--Contact section start-->
-    <section id="contact-section">
+    <section id="contact-section" style="padding: 150px 0 5%">
       <div class="container">
         <div class="row contact-header">
           <div class="col-lg-8 col-md-10 m-auto">
@@ -75,7 +75,7 @@
         <div class="row">
           <div class="col-lg-10 col-md-12 m-auto">
             <div class="row">
-              <div class="col-md-4 information">
+              <div class="col-md-4 col-sm-8 information">
                 <address>
                   <span class="ti-map-alt"></span>
                   <div>
@@ -134,7 +134,7 @@
     <section id="map-section">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-lg-12">
             <div id="map"></div>
           </div>
         </div>
@@ -203,7 +203,12 @@
         element: document.getElementById('map'),
         fills: {
           defaultFill: '#ff817e'
-        }
+        },
+        responsive: true
+      });
+
+      window.addEventListener('resize', function(event) {
+        map.resize();
       });
     </script>
     <!--Datamaps Js end-->
