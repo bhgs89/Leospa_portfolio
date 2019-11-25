@@ -22,7 +22,10 @@ $(document).ready(function() {
   });
 
   /* FancyBox */
-  $(document).ready(function() {
-    $('[data-fancybox="video-fancy"]').fancybox({});
+  $('[data-fancybox="video-fancy"]').fancybox({});
+
+  /* Mobile button */
+  $('.mobile-menu').on('click', function() {
+    $('.menu-ul').slideToggle();
   });
 });

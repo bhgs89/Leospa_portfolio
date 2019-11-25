@@ -81,6 +81,16 @@ header {
   text-decoration: none;
   color: #ff817e;
 }
+.mobile-menu {
+  display: none;
+}
+.ti-menu {
+  color: #ff817e;
+  font-size: 18px;
+  position: absolute;
+  top: -30px;
+  right: 20px;
+}
 
 /* Footer styling */
 footer {
@@ -123,4 +133,27 @@ footer {
 .copyright a:hover {
   text-decoration: none;
   color: #ff817e;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    display: block;
+  }
+  .menu-ul,
+  .footer-nav {
+    display: none;
+  }
+  .menu-ul {
+    background-color: #fcf5ee;
+    text-align: center;
+    padding: 10px;
+  }
+  .menu-ul li {
+    display: block;
+    padding: 10px 15px;
+  }
+  .social {
+    margin-top: 30px;
+  }
 }
