@@ -45,15 +45,16 @@ Also, this web page uses **Bootstrap**, **Owl Carousel JS**, **Fancybox jQuery**
 I am building a website, to be viewed live on the web at GitHub page, and it will be viewed in a web browser, like Chrome.
 
 <br />
+
 ## HTML
 
 ### index page
 
-- Index page**(index.html)** is the main home page of the application.
+- Index page **(index.html)** is the main home page of the application.
 
 ### about page
 
-- About page**(about.html)** is the page to show information about the spa company.
+- About page **(about.html)** is the page to show information about the spa company.
 
 ### feature page
 
@@ -61,13 +62,14 @@ I am building a website, to be viewed live on the web at GitHub page, and it wil
 
 ### service page
 
-- Service page**(service.html)** is showing the procedure of service and appointment scheduling.
+- Service page **(service.html)** is showing the procedure of service and appointment scheduling.
 
 ### contact page
 
-- Contact page**\*(contact.html)** is showing about Spa company's contact information, and it shows world map
+- Contact page **(contact.html)** is showing about Spa company's contact information, and it shows world map
 
 <br>
+
 ## CSS
 
 ### Bootstrap
