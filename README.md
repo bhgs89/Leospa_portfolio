@@ -1,7 +1,7 @@
 # Leospa portfolio web page
 
-**Created by _Han(gwonsok) Baek_**
-**Completed on Nov, 30, 2019**
+**Created by _Han(gwonsok) Baek_**  
+**Completed on Nov, 30, 2019**  
 **https://bhgs89.github.io/Leospa_portfolio**
 
 ---
