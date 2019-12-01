@@ -144,4 +144,5 @@ I am building a website, to be viewed live on the web at GitHub page, and it wil
 
 - To show the world map in the application, I used **Datamaps JS**.
 - The map shows the name of country when we hover the mouse on the specific country.
+- Before using **Datamaps**, we need to setup and apply [D3 JS](https://d3js.org/) and [Topojson](https://github.com/topojson/topojson) in the application
 - [Datamaps JS](https://datamaps.github.io/)
