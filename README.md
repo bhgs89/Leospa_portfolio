@@ -28,7 +28,7 @@ Also, this web page uses **Bootstrap**, **Owl Carousel JS**, **Fancybox jQuery**
   - [Style.css](#style-css-file)
   - [Index.css](#index-css-file)
   - [Bootstrap](#bootstrap)
-  - [Thermify Icon](#thermify-icon)
+  - [Themify Icon](#themify-icon)
   - [Fancybox Style](#fancybox-style)
   - [Owl Carousel Style](#owl-carousel-style)
 - [JAVASCRIPT and jQuery](#javascript-and-jquery)
